@@ -1,0 +1,23 @@
+.botao-flutuante {
+    position: fixed;
+    bottom: 1.25rem;
+    right: 1.875rem;
+    z-index: 9999;
+    border: none;
+    outline: none;
+    background-color: #E33B3B;
+    color: white;
+    cursor: pointer;
+    padding: 0.938rem;
+    border-radius: 10px;
+    display: flex;
+    font-size: 1.4em;
+    text-decoration: none;
+}
+
+.botao-flutuante span {
+    margin-left: 1rem;
+    font-family: Lato, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
